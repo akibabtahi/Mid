@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Make sure the body takes up at least the height of the viewport */
-background-color:  #f7eded;
+background-color:  #fff8f8;
 }
 
 .container {
@@ -27,6 +27,18 @@ h2{
     font-size:30px;
   
 }
+.navbar {
+    list-style-type: none; /* Removing default list style */
+    margin: 10px;
+    padding: 7px;
+    display: flex; /* Using flexbox for layout */
+    justify-content: center; /* Aligning navigation items horizontally */
+    background-color: #6d6d83; /* Setting background color */
+    font-family: "Arial", sans-serif; /* Changing the font */
+    font-size: 20px; /* Setting font size */
+    
+}
+
 .navbar li {
     margin: 0 10px; /* Adding margin between navigation items */
 }
@@ -60,4 +72,39 @@ footer {
     color: #fff;
     text-align: center;
     padding: 0px 0;
+}
+
+.gallery {
+    display: grid; /* Use grid layout for the container */
+    grid-template-columns: 1fr 1fr 1fr; /* Define three equal-width columns */
+}
+
+img {
+    margin: 50px auto; /* Add margin around the images */
+    padding: 5px; /* Add padding around the images */
+    width: 400px; /* Set width of the images */
+    border-radius: 20px; /* Apply border radius to the images */
+    margin-left: 20%;
+    
+}
+.para{
+    margin: 50px auto; /* Add margin around the images */
+    padding: 5px; /* Add padding around the images */
+    width: 400px; /* Set width of the images */
+    border-radius: 20px; /* Apply border radius to the images */
+    margin-left: 20%;
+    font-family: "Arial", sans-serif; /* Changing the font */
+    text-align: justify; /* Justifying text */
+    font-size: 20px; /* Setting font size */
+}
+.para1{
+    margin-bottom: 20px; /* Adding space below each paragraph */
+    line-height: 1.5; /* Setting line height for better readability */
+    font-size: 20px; /* Setting font size */
+    margin: 20px; /* Setting margins */
+    font-family: "Arial", sans-serif; /* Changing the font */
+    text-align: justify; /* Justifying text */
+}
+img:hover {
+    border: 2px solid rgb(85, 72, 136); /* Adding border on hover */
 }
