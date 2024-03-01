@@ -93,4 +93,12 @@ h1{
    
 }
 
+.lamp {
+    display: grid; /* Use grid layout for the container */
+    grid-template-columns: 1fr 1fr 1fr; /* Define three equal-width columns */
+}
+.table {
+    display: grid; /* Use grid layout for the container */
+    grid-template-columns: 1fr 1fr 1fr; /* Define three equal-width columns */
+}
 
