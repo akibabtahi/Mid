@@ -6,6 +6,10 @@ body {
     min-height: 100vh; /* Make sure the body takes up at least the height of the viewport */
 background-color:  #fff8f8;
 }
+/* Name: Akib Abtahi
+Id:2130658 */
+
+
 .navbar {
     list-style-type: none; /* Removing default list style */
     margin: 10px;
