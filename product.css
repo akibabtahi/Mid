@@ -39,6 +39,25 @@ background-color:  #fff8f8;
     font-weight: bold; /* Making active link bold */
 }
 
+
+
+.container {
+    margin: 0 auto;
+    overflow: hidden;
+}
+.sofa{
+    display: grid; /* Use grid layout for the container */
+    grid-template-columns: 1fr 1fr 1fr; /* Define three equal-width columns */
+}
+
+img {
+    margin: 50px auto; /* Add margin around the images */
+    padding: 5px; /* Add padding around the images */
+    width: 450px; /* Set width of the images */
+    border-radius: 20px; /* Apply border radius to the images */
+    margin-left: 20%;
+}
+
 footer {
 
     left: 0;
@@ -49,4 +68,29 @@ footer {
     text-align: center;
     padding: 0px 0;
 }
+
+.para,.para2{
+    margin-bottom: 20px; /* Adding space below each paragraph */
+    line-height: 1.5; /* Setting line height for better readability */
+    font-size: 15px; /* Setting font size */
+    margin: 20px; /* Setting margins */
+    font-family: "Arial", sans-serif; /* Changing the font */
+    text-align: justify; /* Justifying text */
+    margin-left: 20%;
+}
+h2{
+    margin: 20px;
+    font-size:30px; 
+}
+header {
+    background: #6d6d83;
+    color: #fff;
+    padding:  0;
+}
+h1{
+    margin: 20px;
+    font-size:50px;
+   
+}
+
 
