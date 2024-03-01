@@ -40,5 +40,63 @@ footer {
     color: #fff;
     text-align: center;
     padding: 0px 0;
+    
 }
 
+.socialmedia {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    width: 160px;
+    background-color: #f1d1d1;
+    border-radius: 20px;
+    font-family: "Arial", sans-serif;
+}
+
+.socialmedia li {
+    display: block;
+          color: #000;
+          padding: 8px 16px;
+          text-decoration: none;
+}
+
+.socialmedia li a {
+    background-color: #f1d1d1;
+    color: rgb(0, 0, 0);
+    padding: 7px;
+}
+
+.socialmedia li a:hover {
+          background-color: #7e3e3e;
+          color: white;
+          width: auto;
+}
+h2{
+    margin: 20px;
+    font-size:30px; 
+}
+.para{
+    margin-bottom: 20px; /* Adding space below each paragraph */
+    line-height: 1.5; /* Setting line height for better readability */
+    font-size: 15px; /* Setting font size */
+    margin: 20px; /* Setting margins */
+    font-family: "Arial", sans-serif; /* Changing the font */
+    text-align: justify; /* Justifying text */
+    background-color: #aeb1dd;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make sure the body takes up at least the height of the viewport */
+background-color:  #e6e7f4;
+}
+img {
+    margin: 0 auto; /* Add margin around the images */
+    padding: 5px; /* Add padding around the images */
+    width: 500px; /* Set width of the images */
+    border-radius: 20px; /* Apply border radius to the images */
+    margin-left: 40%;
+    
+}
